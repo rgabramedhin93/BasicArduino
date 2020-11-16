@@ -10,7 +10,7 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 ## HelloArduino
 
 ### Description & Code
-
+This is the code of my Arduino LED blinking. When I put Serial.begin that means it turns on the the Serial Monitor. Then Serial Print Line means each line it is gonna say "Hello World" and this is for the void setup. For the void loop I put down Serial Print without the line which means it will print "Blink" beside each other instead of line by line.
 ```C++
 
   // the setup function runs once when you press reset or power the board
@@ -37,7 +37,7 @@ void loop() {
 ### Image or Wiring
 ![alt text](https://raw.githubusercontent.com/rgabramedhin93/BasicArduino/main/IMG_20201116_160537.jpg)
 ### Reflection
-
+This is the first assignment where I coded and it is pretty cool! I made the LED blink twice a second so in the code the delay would be 250. Overall it came out good and looking forward for the next assignment the Finite LED Blink
 
 ## FiniteLEDBlink
 
