@@ -13,15 +13,29 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 
 ```C++
 
-  Blink code goes here!!  // random comment for no reason...
+  // the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(8, OUTPUT);
+  Serial.begin(9600); // Turns on the Serial Monitor
+  Serial.println("Hello World");
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(8, HIGH);   // turn the LED connected to 8th pin ON (HIGH is the voltage level)
+  Serial.print("Blink")
+  ;delay(250);            // wait for a second( Values are given in milli seconds)
+  digitalWrite(8, LOW);    // turn the LED connected to 8th pin OFF by making the voltage LOW
+  delay(250);  // wait for a second  // random comment for no reason...
 
 ```
 
 ### Evidence
-[Here is my code on Arduino Create](https://create.arduino.cc/editor/helmstk1/9a3831dd-4b86-42f2-be49-c28b84874092/preview)
+[Here is my code on Arduino Create](https://create.arduino.cc/editor/rgabram93/2ebb0876-0cbd-45a0-ace6-d89d85620de8)
 
 ### Image or Wiring
-
+![alt text](image.jpg)
 ### Reflection
 
 
