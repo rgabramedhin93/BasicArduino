@@ -35,7 +35,7 @@ void loop() {
 [Here is my code on Arduino Create](https://create.arduino.cc/editor/rgabram93/2ebb0876-0cbd-45a0-ace6-d89d85620de8)
 
 ### Image or Wiring
-![alt text](image.jpg)
+![alt text](https://raw.githubusercontent.com/rgabramedhin93/BasicArduino/main/IMG_20201116_160537.jpg)
 ### Reflection
 
 
