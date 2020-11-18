@@ -73,5 +73,6 @@ void blinkyBlinky(int repeats, int time)
 ### Evidence
 [Here is my code on Arduino Create](https://create.arduino.cc/editor/rgabram93/c1b52a36-2070-44e5-81fd-024e30300fb0)
 ### Image or Wiring
-![alt text]()
+![alt text](https://raw.githubusercontent.com/rgabramedhin93/BasicArduino/main/Screenshot%202020-11-18%20at%204.16.05%20PM.png)
 ### Reflection
+I made an LED blink 5 times. Most of my wiring stayed the same I just changed one of the wires to a new pin. I created the wiring I had on a website called TinkerCAD. Pretty cool seeing it blink 5 times and stopping. Looking forward to the next assingment.
