@@ -33,7 +33,6 @@ void loop() {
 
 ### Evidence
 [Here is my code on Arduino Create](https://create.arduino.cc/editor/rgabram93/2ebb0876-0cbd-45a0-ace6-d89d85620de8)
-
 ### Image or Wiring
 ![alt text](https://raw.githubusercontent.com/rgabramedhin93/BasicArduino/main/IMG_20201116_160537.jpg)
 ### Reflection
@@ -42,13 +41,37 @@ This is the first assignment where I coded and it is pretty cool! I made the LED
 ## FiniteLEDBlink
 
 ### Description & Code
+For this assingment I had to make an LED blink 5 times and stop.
 
 ```C++
-Code Goes Here
+int ledPin = 13;
+int blinkTime = 500;
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);
+  blinkyBlinky(5, blinkTime); // 5 is number of blinks, blinkTime is the milliseconds in each state from above: int blinkTime = 500;
+}
+
+void loop()
+{
+  //
+}
+
+void blinkyBlinky(int repeats, int time)
+{
+  for (int i = 0; i < repeats; i++)
+  {
+    digitalWrite(ledPin, HIGH);
+    delay(time);
+    digitalWrite(ledPin, LOW);
+    delay(time);
+  }
+}
 ```
 
 ### Evidence
-
+[Here is my code on Arduino Create](https://create.arduino.cc/editor/rgabram93/c1b52a36-2070-44e5-81fd-024e30300fb0)
 ### Image or Wiring
-
+![alt text]()
 ### Reflection
