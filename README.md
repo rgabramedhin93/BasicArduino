@@ -80,10 +80,33 @@ I made an LED blink 5 times. Most of my wiring stayed the same I just changed on
 
 ## VariableLEDBlink
 
-### Desceiption & Code
+### Description & Code
+The Variable LED Blinker is when you make the LED blink but every second it gets faster and faster. You have to use a new variable called delayVar. Since you know that 1000 milliseconds equals 1 second, you would have to do minus 100 after the delayVar so the LED can get faster.
 
 ```C++
+/* Karl Helmstetter
+variable LED BLink
+This should blink an LED faster and faster, until it reaches 5 blinks per second
+*/
 
+int ledPin = 8;
+int delayVar = 1000;  //this variable is used for my delays.
+
+void setup() {
+  pinMode(ledPin,OUTPUT);    
+}
+
+void loop() {
+    digitalWrite(ledPin, HIGH);           // turn the LED on (HIGH is the voltage level)
+    delay(delayVar);                       // wait for a second
+    digitalWrite(ledPin, LOW);            // turn the LED off by making the voltage LOW
+    delay(delayVar);                       // wait for a second
+    Serial.println(delayVar);
+    delayVar = delayVar - 100;
+    
+    //as long as the delay is longer than 100 ms, we should continue to blink,
+    // and we should also 
+}
 ```
 
 ### Evidence
