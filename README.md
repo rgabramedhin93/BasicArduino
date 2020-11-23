@@ -6,6 +6,7 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 * [TableOfContents](#TableOfContents)
 * [HelloArduino](#HelloArduino)
 * [FiniteLEDBlink](#FiniteLEDBlink)
+* [VariableLEDBlink](#VariableLEDBlink)
 
 ## HelloArduino
 
@@ -77,4 +78,10 @@ void blinkyBlinky(int repeats, int time)
 ### Reflection
 I made an LED blink 5 times. Most of my wiring stayed the same I just changed one of the wires to a new pin. I created the wiring I had on a website called TinkerCAD. Pretty cool seeing it blink 5 times and stopping. Looking forward to the next assingment.
 
+## VariableLEDBlink
 
+### Desceiption & Code
+
+```C++
+
+```
