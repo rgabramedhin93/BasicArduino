@@ -112,5 +112,6 @@ void loop() {
 ### Evidence
 [Here is my code on Arduino Create](https://create.arduino.cc/editor/rgabram93/f6526129-7bb6-47d5-9727-540a27ceaf62)
 ### Image or Wiring
-![alt text]()
+![alt text](https://raw.githubusercontent.com/rgabramedhin93/BasicArduino/main/Screenshot%202020-11-23%20at%204.18.49%20PM.png)
 ### Reflection
+This assignment is a really cool one. The LED gets faster each time which makes it look cool. Nothing really changed in the wiring other than changing the wire to pin 8 to light the LED.
