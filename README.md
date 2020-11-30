@@ -7,7 +7,7 @@ I'm going to learn how to use an Arduino, and make awesome things with it!
 * [HelloArduino](#HelloArduino)
 * [FiniteLEDBlink](#FiniteLEDBlink)
 * [VariableLEDBlink](#VariableLEDBlink)
-* [Button-Activated LED](#Button-Activated LED)
+* [Button-Activated LED](#ButtonActivatedLED)
 
 ## HelloArduino
 
