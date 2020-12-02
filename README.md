@@ -147,5 +147,6 @@ void loop() {
 ### Evidence
 [Here is my code on Arduino Create](https://create.arduino.cc/editor/rgabram93/14482634-3e11-4d00-87e6-d0dcc1a53768)
 ### Image or Wiring
-![alt text](image.jpg)
+![alt text](https://raw.githubusercontent.com/rgabramedhin93/BasicArduino/main/button%20LED-1.jpg)
 ### Reflection
+This assignment was kind of hard for me, I had trouble trying to make the right code for this but it ended up working out for me. Looking forward to the next assignment!
