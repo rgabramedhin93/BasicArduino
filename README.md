@@ -120,10 +120,28 @@ This assignment is a really cool one. The LED gets faster each time which makes 
 
 ## ButtonActivatedLED
 
-### Description/Code
-
+### Description & Code
+In this assignment we had to wire up an LED and use a pushbutton to make the LED blink. Once you press the button the LED starts blinking and once you let go it turns off.
 ```C++
+int buttonPin = 2; // Pin connected to PushButton                                                                       
+int ledPin = 13; // Pin connected to LED
+int buttonState = 0; // Gives pushbutton a value
 
+void setup() {
+  
+  pinMode(ledPin, OUTPUT); // Sets LED pin as an output
+  pinMode(buttonPin, INPUT); // Sets pushbutton pin as an input
+}
+
+void loop() {
+  buttonState = digitalRead(buttonPin); // Reads input from pin 2
+  if(buttonState == HIGH) { // If pushbutton is pressed, set as high
+    digitalWrite(ledPin, HIGH); // Turn on LED
+  }
+  else{
+    digitalWrite(ledPin, LOW); // Otherwise turn off LED
+  }
+  }
 ```
 
 ### Evidence
